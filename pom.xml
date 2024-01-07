@@ -32,7 +32,14 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency>:
+		</dependency>
+		<dependency>
+			<groupId>com.scheduler</groupId>
+			<artifactId>obsidian</artifactId>
+			<version>5.2.1</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/main/resources/obsidian-5.2.1.jar</systemPath>
+		</dependency>
 	</dependencies>
 
 	<build>
